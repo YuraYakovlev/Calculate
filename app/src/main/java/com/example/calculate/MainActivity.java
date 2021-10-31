@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
+
+import com.google.android.material.textview.MaterialTextView;
 
 public class MainActivity extends AppCompatActivity {
     public static final String SAVED = "SAVED";
@@ -45,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         textView = findViewById(R.id.input_and_result);
+
         for (int num : numbers) {
             findViewById(num).setOnClickListener(numberClickListener);
         }
@@ -80,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        calculateLogic = (CalculateLogic) savedInstanceState.getParcelable(SAVED);
+        calculateLogic = savedInstanceState.getParcelable(SAVED);
         textView.setText(calculateLogic.getText());
     }
 }

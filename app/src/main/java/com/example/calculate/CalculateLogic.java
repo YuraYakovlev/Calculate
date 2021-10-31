@@ -150,6 +150,9 @@ public class CalculateLogic implements Parcelable {
                 return stringBuilder.append(symbolOperation).toString();
             case EQUALS:
                 stringBuilder.setLength(0);
+                if (firstArg % 1 == 0) {
+                    return String.valueOf(Math.round(firstArg));
+                }
                 return stringBuilder.append(firstArg).toString();
         }
     }
