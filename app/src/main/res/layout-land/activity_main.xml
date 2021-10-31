@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:hint="Результат" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_one"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="@id/input_and_result"
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_two"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -38,7 +38,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_one"
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_three"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_two"
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_discharge"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_three"
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_four"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -68,7 +68,7 @@
         app:layout_constraintStart_toStartOf="@id/input_and_result"
         app:layout_constraintTop_toBottomOf="@id/btn_one" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_five"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -78,7 +78,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_four"
         app:layout_constraintTop_toBottomOf="@id/btn_two" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_six"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -88,7 +88,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_five"
         app:layout_constraintTop_toBottomOf="@id/btn_three" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_plus"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -98,7 +98,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_six"
         app:layout_constraintTop_toBottomOf="@id/btn_discharge" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_seven"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -108,7 +108,7 @@
         app:layout_constraintStart_toStartOf="@id/input_and_result"
         app:layout_constraintTop_toBottomOf="@id/btn_four" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_eight"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -118,7 +118,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_seven"
         app:layout_constraintTop_toBottomOf="@id/btn_five" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_nine"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -128,7 +128,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_eight"
         app:layout_constraintTop_toBottomOf="@id/btn_six" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_minus"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -138,7 +138,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_nine"
         app:layout_constraintTop_toBottomOf="@id/btn_plus" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_zero"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -149,7 +149,7 @@
         app:layout_constraintStart_toStartOf="@id/input_and_result"
         app:layout_constraintTop_toBottomOf="@id/btn_seven" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_equals"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -159,7 +159,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_zero"
         app:layout_constraintTop_toBottomOf="@id/btn_eight" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_division"
         style="@style/btn_style"
         android:layout_width="0dp"
@@ -170,7 +170,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_nine" />
 
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@id/btn_multiplication"
         style="@style/btn_style"
         android:layout_width="0dp"
