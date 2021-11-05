@@ -29,4 +29,14 @@
         <item name="android:textSize">@dimen/btn_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="switch_style" parent="btn_style">
+        <item name="android:text">@string/light_theme</item>
+        <item name="android:textSize">@dimen/sw_text_size</item>
+    </style>
+
+    <style name="layout_style">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/fire</item>
+    </style>
 </resources>

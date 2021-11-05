@@ -19,4 +19,6 @@
     <string name="zero">0</string>
     <string name="comma">,</string>
     <string name="equals">=</string>
+    <string name="night_theme">Dark theme</string>
+    <string name="light_theme">Light theme</string>
 </resources>

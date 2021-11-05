@@ -2,19 +2,27 @@ package com.example.calculate;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.android.material.textview.MaterialTextView;
 
 public class MainActivity extends AppCompatActivity {
     public static final String SAVED = "SAVED";
 
-    TextView textView;
-    CalculateLogic calculateLogic = null;
+    private TextView textView;
+    private CalculateLogic calculateLogic = null;
+    private SwitchMaterial sw;
 
     int[] numbers = {
             R.id.btn_one,
@@ -40,10 +48,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        setTheme(R.style.Theme_Calculate);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (calculateLogic == null){
+        if (calculateLogic == null) {
             calculateLogic = new CalculateLogic();
         }
 
@@ -57,6 +68,14 @@ public class MainActivity extends AppCompatActivity {
             findViewById(oper).setOnClickListener(operationClickListener);
         }
 
+        sw = findViewById(R.id.sw_night_theme);
+        sw.setOnClickListener(v -> {
+            if (sw.isChecked()) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+            }
+        });
     }
 
     View.OnClickListener numberClickListener = new View.OnClickListener() {
@@ -74,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(calculateLogic.getText());
         }
     };
+
 
     @Override
     public void onSaveInstanceState(@NonNull Bundle outState) {

@@ -7,6 +7,15 @@
     style="@style/layout_style"
     tools:context=".MainActivity">
 
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/sw_night_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/night_theme"
+        style="@style/switch_style" />
+
 
     <TextView
         android:id="@id/input_and_result"
