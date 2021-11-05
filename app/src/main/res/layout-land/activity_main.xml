@@ -2,23 +2,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/layout_style"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/layout_style"
     tools:context=".MainActivity">
 
+
     <TextView
-        android:id="@+id/input_and_result"
-        style="@style/text_style"
+        android:id="@id/input_and_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/text_style"
         app:layout_constraintBottom_toTopOf="@id/btn_discharge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:hint="Результат" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_one"
+        android:id="@id/btn_one"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -28,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_two"
+        android:id="@id/btn_two"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -38,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_three"
+        android:id="@id/btn_three"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -48,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_discharge"
+        android:id="@id/btn_discharge"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -58,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_and_result" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_four"
+        android:id="@id/btn_four"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -68,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_one" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_five"
+        android:id="@id/btn_five"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -78,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_two" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_six"
+        android:id="@id/btn_six"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -88,7 +89,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_three" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_plus"
+        android:id="@id/btn_plus"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -98,7 +99,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_discharge" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_seven"
+        android:id="@id/btn_seven"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -108,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_four" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_eight"
+        android:id="@id/btn_eight"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -118,7 +119,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_five" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_nine"
+        android:id="@id/btn_nine"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -128,7 +129,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_six" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_minus"
+        android:id="@id/btn_minus"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -138,7 +139,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_plus" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_zero"
+        android:id="@id/btn_zero"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -149,7 +150,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_seven" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_equals"
+        android:id="@id/btn_equals"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -159,7 +160,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_eight" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_division"
+        android:id="@id/btn_division"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -170,7 +171,7 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_multiplication"
+        android:id="@id/btn_multiplication"
         style="@style/btn_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

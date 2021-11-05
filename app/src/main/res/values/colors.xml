@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="day_text">#7FFFD4</color>
+    <color name="day_button">#AFEEEE</color>
+    <color name="night_text">#4B0082</color>
+    <color name="night_button">#191970</color>
 </resources>
