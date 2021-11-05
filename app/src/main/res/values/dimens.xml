@@ -2,4 +2,5 @@
 <resources>
     <dimen name="btn_text_size">60sp</dimen>
     <dimen name="et_text_size">80sp</dimen>
+    <dimen name="sw_text_size">20sp</dimen>
 </resources>
