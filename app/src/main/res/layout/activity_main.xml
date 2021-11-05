@@ -20,7 +20,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_one"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/one"
         app:layout_constraintEnd_toStartOf="@id/btn_two"
@@ -30,7 +30,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_two"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/two"
         app:layout_constraintEnd_toStartOf="@id/btn_three"
@@ -40,7 +40,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_three"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/three"
         app:layout_constraintEnd_toStartOf="@id/btn_discharge"
@@ -50,7 +50,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_discharge"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/c"
         app:layout_constraintEnd_toEndOf="@id/input_and_result"
@@ -60,7 +60,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_four"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/four"
         app:layout_constraintEnd_toStartOf="@id/btn_five"
@@ -70,7 +70,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_five"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/five"
         app:layout_constraintEnd_toStartOf="@id/btn_six"
@@ -80,7 +80,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_six"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/six"
         app:layout_constraintEnd_toStartOf="@id/btn_plus"
@@ -90,7 +90,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_plus"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/plus"
         app:layout_constraintEnd_toEndOf="@id/input_and_result"
@@ -100,7 +100,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_seven"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/seven"
         app:layout_constraintEnd_toStartOf="@id/btn_eight"
@@ -110,7 +110,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_eight"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/eight"
         app:layout_constraintEnd_toStartOf="@id/btn_nine"
@@ -120,7 +120,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_nine"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/nine"
         app:layout_constraintEnd_toStartOf="@id/btn_minus"
@@ -130,7 +130,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_minus"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/minus"
         app:layout_constraintEnd_toEndOf="@id/input_and_result"
@@ -140,7 +140,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_zero"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/zero"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -151,7 +151,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_equals"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/equals"
         app:layout_constraintEnd_toStartOf="@id/btn_division"
@@ -161,7 +161,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_division"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/division"
         app:layout_constraintEnd_toStartOf="@id/btn_multiplication"
@@ -172,7 +172,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_multiplication"
         style="@style/btn_style"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/multiplication"
         app:layout_constraintBottom_toBottomOf="parent"
